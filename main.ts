@@ -3,6 +3,7 @@ let end_time = 0
 input.onPinPressed(TouchPin.P0, function () {
     start_time = input.runningTime()
     basic.showIcon(IconNames.Heart)
+    basic.clearScreen()
 })
 input.onPinPressed(TouchPin.P2, function () {
     end_time = input.runningTime()
